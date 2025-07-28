@@ -1,11 +1,7 @@
-# Created by `pipx` on 2025-05-11 06:00:30
-export PATH="$PATH:/Users/anywindblows/.local/bin"
-
-
 # === Aliases ===
 
 # Sorts directories in top, colors, and prints `/` at directories:
-alias ls='eza -l -a --icons=auto --header'
+alias ls='eza -l -a --icons=auto --header --git'
 
 # Use syntax highlight for `cat`:
 alias cat='bat --paging never --decorations never --plain'
