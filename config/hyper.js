@@ -11,7 +11,7 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 14,
     // font family with optional fallbacks
-    fontFamily: "Menlo, monospace",
+    fontFamily: "Menlo, Hack Nerd Font Mono,  monospace",
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
     // font weight for bold characters: 'normal' or 'bold'
@@ -142,7 +142,11 @@ module.exports = {
   },
 
   // a list of plugins to fetch and install from npm
-  plugins: ["hyperterm-summon", "hyper-search", "senya"],
+  plugins: [
+    "hyperterm-summon",
+    "hyper-search",
+    "hyper-material-theme"
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
