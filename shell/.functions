@@ -1,0 +1,16 @@
+#!/usr/bin/env zsh
+
+# `.functions` provides helper functions for shell.
+
+
+# === Commonly used functions ===
+
+mc () {
+  if [ $# -ne 1 ]; then
+    echo 'usage: mc <dir-name>'
+    return 137
+  fi
+  # Create a new directory and enter it
+  local dir_name="$1"
+  mkdir -p "$dir_name" && cd "$dir_name"
+}

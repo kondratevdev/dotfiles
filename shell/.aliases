@@ -1,3 +1,9 @@
+#!/usr/bin/env zsh
+
+# `.aliases` is used to provide custom aliases.
+
+
+
 # === Aliases ===
 
 # Sorts directories in top, colors, and prints `/` at directories:
@@ -5,3 +11,6 @@ alias ls='eza -l -a --icons=auto --header --git'
 
 # Use syntax highlight for `cat`:
 alias cat='bat --paging never --decorations never --plain'
+
+# Copy public key to clipboard:
+alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
