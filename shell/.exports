@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+# `.exports` is used to provide custom variables.
+
