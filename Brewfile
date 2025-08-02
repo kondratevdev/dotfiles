@@ -1,0 +1,38 @@
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Modern, maintained replacement for ls
+brew "eza"
+# Distributed revision control system
+brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Improved Nano Syntax Highlighting Files
+brew "nanorc"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Python version management
+brew "pyenv"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Voice and text chat software
+cask "discord"
+# Using for eza icons
+cask "font-hack-nerd-font"
+# Web browser
+cask "google-chrome"
+# Terminal built on web technologies
+cask "hyper"
+# Smooths scrolling and set mouse scroll directions independently
+cask "mos"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Finder Toolbar app to open the current directory in Terminal or Editor
+cask "openinterminal"
+# Replacement for Docker Desktop
+cask "orbstack"
+# Collaboration platform for API development
+cask "postman"
+# Messaging app with a focus on speed and security
+cask "telegram"
