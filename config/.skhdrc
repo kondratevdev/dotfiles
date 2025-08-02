@@ -1,0 +1,16 @@
+# Custom keyboard shortcuts to spawn apps
+#
+# Docs can be found here:
+# https://github.com/koekeishiya/skhd
+
+# open IDE:
+ctrl - p : open -a 'PyCharm'
+
+# open browser:
+ctrl - o : open -a 'Safari'
+
+# open telegram:
+ctrl - a : open -a 'Telegram'
+
+# Hyper has its own hotkey with `ctrl + ;` in `hyper.js`,
+# because this app does not allow `;` as a hotkey for some reason.

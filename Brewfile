@@ -1,3 +1,4 @@
+tap "koekeishiya/formulae"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern, maintained replacement for ls
@@ -16,6 +17,8 @@ brew "pipx"
 brew "pyenv"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Simple hotkey-daemon for macOS.
+brew "koekeishiya/formulae/skhd"
 # Voice and text chat software
 cask "discord"
 cask "font-hack-nerd-font"
