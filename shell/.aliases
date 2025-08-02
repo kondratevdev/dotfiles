@@ -12,5 +12,8 @@ alias ls='eza -lahU --icons=auto --git --group-directories-first --time-style=is
 # Use syntax highlight for `cat`:
 alias cat='bat --paging never --decorations never --plain'
 
+# Lock the screen (when going AFK)
+alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" using {command down,control down}'"
+
 # Copy public key to clipboard:
 alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"

@@ -4,5 +4,7 @@
 
 
 
+# === Completions ===
+
 # Enable hidden files on completion:
 setopt globdots

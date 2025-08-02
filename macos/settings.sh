@@ -5,12 +5,8 @@ set -e
 # This file contains settings for mac which makes me happy.
 # It is not a full list.
 #
-# The best resource of finding new settings for other users is:
-# https://www.defaults-write.com
-#
 # Some parts are taken from:
-# - https://github.com/rootbeersoup/dotfiles
-# - https://github.com/skwp/dotfiles
+# - https://github.com/sobolevn/dotfiles
 #
 # All values are sorted inside their blocks: newest are on the top.
 #
