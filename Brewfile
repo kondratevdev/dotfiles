@@ -6,6 +6,8 @@ brew "eza"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Improved Nano Syntax Highlighting Files
 brew "nanorc"
 # Execute binaries from Python packages in isolated environments
@@ -16,7 +18,6 @@ brew "pyenv"
 brew "tree"
 # Voice and text chat software
 cask "discord"
-# Using for eza icons
 cask "font-hack-nerd-font"
 # Web browser
 cask "google-chrome"
