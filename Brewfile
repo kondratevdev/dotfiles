@@ -17,10 +17,13 @@ brew "pipx"
 brew "pyenv"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Next-generation plugin manager for zsh
+brew "zplug"
 # Simple hotkey-daemon for macOS.
 brew "koekeishiya/formulae/skhd"
 # Voice and text chat software
 cask "discord"
+cask "font-fira-code"
 cask "font-hack-nerd-font"
 # Web browser
 cask "google-chrome"

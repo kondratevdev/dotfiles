@@ -3,4 +3,49 @@
 # `.exports` is used to provide custom variables.
 
 
-# === Exports ===
+
+# === Path modifications ===
+
+# Adds `pipx` binary files:
+PATH="$HOME/.local/bin:$PATH"
+
+# Adds `poetry` binary, should be added to the end:
+PATH="$HOME/.poetry/bin:$PATH"
+
+
+
+# === General ===
+
+# Editor:
+export EDITOR="$(which nano)"
+
+# Homebrew:
+export HOMEBREW_NO_ANALYTICS=1  # disables statistics that brew collects
+
+
+
+# === Version managers ===
+
+# pyenv:
+eval "$(pyenv init --path)"
+
+
+
+# === Poetry ===
+# https://python-poetry.org/docs/configuration/
+
+export POETRY_VIRTUALENVS_IN_PROJECT=false
+
+
+
+# === Code highlight ===
+# https://github.com/zsh-users/zsh-syntax-highlighting
+
+# We won't highlight code longer than 200 chars, because it is slow:
+export ZSH_HIGHLIGHT_MAXLENGTH=200
+
+
+# === PATH ===
+
+# This should be the last line:
+export PATH
