@@ -77,5 +77,5 @@ module.exports = {
   },
 
   // a list of plugins to fetch and install from npm
-  plugins: ["hyperterm-summon", "hyper-gruv"],
+  plugins: ["hyperterm-summon", "hyper-ayu"],
 };
