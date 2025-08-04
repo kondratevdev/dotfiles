@@ -7,10 +7,13 @@
 ctrl - p : open -a 'PyCharm'
 
 # open browser:
-ctrl - o : open -a 'Safari'
+ctrl - o : open -a 'Google Chrome'
 
 # open telegram:
 ctrl - a : open -a 'Telegram'
+
+# open obsidian:
+ctrl - q : open -a 'Obsidian'
 
 # Hyper has its own hotkey with `ctrl + ;` in `hyper.js`,
 # because this app does not allow `;` as a hotkey for some reason.
