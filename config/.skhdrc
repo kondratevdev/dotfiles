@@ -7,7 +7,7 @@
 ctrl - p : open -a 'PyCharm'
 
 # open browser:
-ctrl - o : open -a 'Google Chrome'
+ctrl - o : open -a 'Safari'
 
 # open telegram:
 ctrl - a : open -a 'Telegram'
