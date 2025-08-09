@@ -22,6 +22,7 @@ brew "zplug"
 # Simple hotkey-daemon for macOS.
 brew "koekeishiya/formulae/skhd"
 # Voice and text chat software
+cask "discord"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 # Web browser
@@ -30,6 +31,8 @@ cask "google-chrome"
 cask "hyper"
 # Smooths scrolling and set mouse scroll directions independently
 cask "mos"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Finder Toolbar app to open the current directory in Terminal or Editor
@@ -40,3 +43,12 @@ cask "orbstack"
 cask "postman"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Open-source code editor
+cask "visual-studio-code"
+vscode "editorconfig.editorconfig"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "sobolevn.pustota"
+vscode "teabyii.ayu"
