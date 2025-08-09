@@ -4,7 +4,7 @@
 # https://github.com/koekeishiya/skhd
 
 # open IDE:
-ctrl - p : open -a 'PyCharm'
+ctrl - p : open -a 'Visual Studio Code'
 
 # open browser:
 ctrl - o : open -a 'Safari'
