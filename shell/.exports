@@ -34,7 +34,7 @@ eval "$(pyenv init --path)"
 # === Poetry ===
 # https://python-poetry.org/docs/configuration/
 
-export POETRY_VIRTUALENVS_IN_PROJECT=false
+export POETRY_VIRTUALENVS_IN_PROJECT=true
 
 
 

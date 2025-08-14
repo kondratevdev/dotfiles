@@ -17,3 +17,6 @@ alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" u
 
 # Copy public key to clipboard:
 alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+
+# Open workdir:
+alias dev="cd ~/dev/"
