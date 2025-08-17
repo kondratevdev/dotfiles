@@ -24,7 +24,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
@@ -53,6 +53,11 @@
     },
     "python.analysis.autoFormatStrings": true,
     "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+        {"name": "", "depth": 4},
+        {"name": "package_name", "depth": 5}
+    ],
     "python.createEnvironment.trigger": "off",
     "python.experiments.enabled": false,
     "search.quickAccess.preserveInput": true,
@@ -71,8 +76,8 @@
     "window.newWindowDimensions": "fullscreen",
     "window.zoomLevel": 0.5,
     "workbench.activityBar.location": "hidden",
-    "workbench.colorTheme": "pustota",
-    "workbench.iconTheme": "ayu",
+    "workbench.colorTheme": "Pycharm Original Theme",
+    //"workbench.iconTheme": "ayu",
     "workbench.layoutControl.enabled": false,
     "workbench.navigationControl.enabled": false,
     "workbench.quickOpen.preserveInput": false,  // NOTE: try both!
@@ -82,4 +87,5 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook",
     },
+    "git.blame.statusBarItem.enabled": false,
 }
