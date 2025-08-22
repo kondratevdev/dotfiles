@@ -88,4 +88,5 @@
         "*.ipynb": "jupyter-notebook",
     },
     "git.blame.statusBarItem.enabled": false,
+    "workbench.statusBar.visible": false,
 }
