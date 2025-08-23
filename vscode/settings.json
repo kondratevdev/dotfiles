@@ -89,4 +89,6 @@
     },
     "git.blame.statusBarItem.enabled": false,
     "workbench.statusBar.visible": false,
+    "editorconfig.showMenuEntry": false,
+    "editorconfig.generateAuto": false,
 }
