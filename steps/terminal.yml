@@ -2,31 +2,31 @@
 - clean: ["~"]
 
 - link:
-  # Terminal:
-  ~/.shell:
-    path: shell
-    create: true
-  ~/.bash_profile: config/bash_profile
-  ~/.bashrc: config/bashrc
-  ~/.zshrc:
-    path: config/zshrc
-    force: true
+    # Terminal:
+    ~/.shell:
+      path: shell
+      create: true
+    ~/.bash_profile: config/bash_profile
+    ~/.bashrc: config/bashrc
+    ~/.zshrc:
+      path: config/zshrc
+      force: true
 
-  ~/.zplugrc: config/zplugrc
-  ~/.hyper.js: config/hyper.js
+    ~/.zplugrc: config/zplugrc
+    ~/.hyper.js: config/hyper.js
 
-  # Git:
-  ~/.gitignore_global: config/gitignore
-  ~/.gitattributes_global: config/gitattributes
+    # Git:
+    ~/.gitignore_global: config/gitignore
+    ~/.gitattributes_global: config/gitattributes
 
-  # Editors:
-  ~/.editorconfig: config/editorconfig
-  ~/.nanorc: config/nanorc
+    # Editors:
+    ~/.editorconfig: config/editorconfig
+    ~/.nanorc: config/nanorc
 
-  # skhd:
-  ~/.skhdrc:
-    path: config/skhdrc
-    force: true
+    # skhd:
+    ~/.skhdrc:
+      path: config/skhdrc
+      force: true
 
 # See https://python-poetry.org
 - shell:
