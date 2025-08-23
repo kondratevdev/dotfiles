@@ -21,6 +21,8 @@
     "editor.rulers": [80, 100],
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
+    "editorconfig.showMenuEntry": false,
+    "editorconfig.generateAuto": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
@@ -51,6 +53,7 @@
         "**/htmlcoverage": true,
         "**/docs/build": true,
     },
+    "git.blame.statusBarItem.enabled": false,
     "python.analysis.autoFormatStrings": true,
     "python.analysis.autoImportCompletions": true,
     "python.analysis.indexing": true,
@@ -77,18 +80,14 @@
     "window.zoomLevel": 0.5,
     "workbench.activityBar.location": "hidden",
     "workbench.colorTheme": "Pycharm Original Theme",
-    //"workbench.iconTheme": "ayu",
     "workbench.layoutControl.enabled": false,
     "workbench.navigationControl.enabled": false,
     "workbench.quickOpen.preserveInput": false,  // NOTE: try both!
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook",
-    },
-    "git.blame.statusBarItem.enabled": false,
     "workbench.statusBar.visible": false,
-    "editorconfig.showMenuEntry": false,
-    "editorconfig.generateAuto": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    }
 }

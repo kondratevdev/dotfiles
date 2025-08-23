@@ -23,7 +23,9 @@ brew "zplug"
 brew "koekeishiya/formulae/skhd"
 # Voice and text chat software
 cask "discord"
+# Font for terminal
 cask "font-fira-code"
+# Icons for terminal
 cask "font-hack-nerd-font"
 # Web browser
 cask "google-chrome"
