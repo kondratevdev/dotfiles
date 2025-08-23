@@ -1,0 +1,41 @@
+---
+
+- clean: ['~']
+
+- link:
+  # Terminal:
+  ~/.shell:
+    path: shell
+    create: true
+  ~/.bash_profile: config/bash_profile
+  ~/.bashrc: config/bashrc
+  ~/.zshrc:
+    path: config/zshrc
+    force: true
+  ~/.zshenv:
+    path: config/zshenv
+    force: true
+
+  ~/.zplugrc: config/zplugrc
+  ~/.hyper.js: config/hyper.js
+
+  # Git:
+  ~/.gitignore_global: config/gitignore
+  ~/.gitattributes_global: config/gitattributes
+
+  # Editors:
+  ~/.editorconfig: config/editorconfig
+  ~/.nanorc: config/nanorc
+
+  # skhd:
+  ~/.skhdrc:
+    path: config/skhdrc
+    force: true
+
+# See https://python-poetry.org
+- shell:
+  - command: |
+      curl -sSL https://install.python-poetry.org | python3 -
+    description: Install poetry
+    stdout: true
+    stderr: true
