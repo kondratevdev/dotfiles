@@ -1,5 +1,4 @@
 ---
-
 # Setting up vscode:
 - link:
     "~/Library/Application Support/Code/User/settings.json":
@@ -16,4 +15,4 @@
     stdout: true
     stderr: true
     # Brewfile now has vscode plugins:
-    include: ['vscode']
+    include: ["vscode"]

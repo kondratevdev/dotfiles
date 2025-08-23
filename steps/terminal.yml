@@ -1,6 +1,5 @@
 ---
-
-- clean: ['~']
+- clean: ["~"]
 
 - link:
   # Terminal:
@@ -11,9 +10,6 @@
   ~/.bashrc: config/bashrc
   ~/.zshrc:
     path: config/zshrc
-    force: true
-  ~/.zshenv:
-    path: config/zshenv
     force: true
 
   ~/.zplugrc: config/zplugrc
@@ -34,8 +30,8 @@
 
 # See https://python-poetry.org
 - shell:
-  - command: |
-      curl -sSL https://install.python-poetry.org | python3 -
-    description: Install poetry
-    stdout: true
-    stderr: true
+    - command: |
+        curl -sSL https://install.python-poetry.org | python3 -
+      description: Install poetry
+      stdout: true
+      stderr: true
