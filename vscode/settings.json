@@ -62,12 +62,12 @@
     // Git
     "git.blame.statusBarItem.enabled": false,
     // Pyhton
+    "python.analysis.languageServerMode": "default",
     "python.analysis.autoFormatStrings": true,
     "python.analysis.autoImportCompletions": true,
     "python.analysis.indexing": true,
     "python.analysis.packageIndexDepths": [
         {"name": "", "depth": 4},
-        {"name": "package_name", "depth": 5}
     ],
     "python.createEnvironment.trigger": "off",
     "python.experiments.enabled": false,
