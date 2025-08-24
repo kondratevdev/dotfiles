@@ -16,6 +16,7 @@
     ~/.hyper.js: config/hyper.js
 
     # Git:
+    ~/.gitconfig: config/gitconfig
     ~/.gitignore_global: config/gitignore
     ~/.gitattributes_global: config/gitattributes
 

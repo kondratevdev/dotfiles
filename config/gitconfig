@@ -1,0 +1,54 @@
+[core]
+  excludesfile = ~/.gitignore_global
+  attributesFile = ~/.gitattributes_global
+	autocrlf = input
+	safecrlf = warn
+[http]
+	postBuffer = 524288000
+[push]
+  default = simple
+  autoSetupRemote = true
+	followTags = true
+[fetch]
+  prune = true
+  pruneTags = true
+	all = true
+[user]
+  useConfigOnly = true
+[diff]
+  indentHeuristic = on
+  noprefix = true
+  colorMoved = default
+[rerere]
+	enabled = true
+[submodule]
+	recurse = true
+	fetchJobs = 0
+[color]
+  ui = true
+[color "diff"]
+  meta = black
+  frag = blue bold
+  commit = black bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
+[pull]
+	rebase = false
+[init]
+	defaultBranch = master
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	sort = version:refname
+
+# Allow local customizations in the .gitconfig_local file
+[include]
+  path = ~/.gitconfig_local
