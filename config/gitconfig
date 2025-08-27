@@ -24,15 +24,6 @@
 [submodule]
   recurse = true
   fetchJobs = 0
-[color]
-  ui = true
-[color "diff"]
-  meta = black
-  frag = blue bold
-  commit = black bold
-  old = red bold
-  new = green bold
-  whitespace = red reverse
 [diff]
   algorithm = histogram
   colorMoved = plain
@@ -48,6 +39,21 @@
   sort = -committerdate
 [tag]
   sort = version:refname
+
+# Styling:
+[color]
+  ui = true
+[color "diff"]
+  meta = black
+  frag = blue bold
+  commit = black bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+
+# Aliases:
+[alias]
+  main = "!git checkout main > /dev/null 2>&1 || git checkout master"
 
 # Allow local customizations in the .gitconfig_local file
 [include]
