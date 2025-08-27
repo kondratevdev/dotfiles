@@ -24,6 +24,7 @@
     "editor.rulers": [80, 100],
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
+    "editor.renderWhitespace": "all",
     // Editorconfig
     "editorconfig.showMenuEntry": false,
     "editorconfig.generateAuto": false,

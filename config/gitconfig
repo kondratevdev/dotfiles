@@ -1,18 +1,18 @@
 [core]
   excludesfile = ~/.gitignore_global
   attributesFile = ~/.gitattributes_global
-	autocrlf = input
-	safecrlf = warn
+  autocrlf = input
+  safecrlf = warn
 [http]
-	postBuffer = 524288000
+  postBuffer = 524288000
 [push]
   default = simple
   autoSetupRemote = true
-	followTags = true
+  followTags = true
 [fetch]
   prune = true
   pruneTags = true
-	all = true
+  all = true
 [user]
   useConfigOnly = true
 [diff]
@@ -20,10 +20,10 @@
   noprefix = true
   colorMoved = default
 [rerere]
-	enabled = true
+  enabled = true
 [submodule]
-	recurse = true
-	fetchJobs = 0
+  recurse = true
+  fetchJobs = 0
 [color]
   ui = true
 [color "diff"]
@@ -34,20 +34,20 @@
   new = green bold
   whitespace = red reverse
 [diff]
-	algorithm = histogram
-	colorMoved = plain
-	mnemonicPrefix = true
-	renames = true
+  algorithm = histogram
+  colorMoved = plain
+  mnemonicPrefix = true
+  renames = true
 [pull]
-	rebase = false
+  rebase = false
 [init]
-	defaultBranch = master
+  defaultBranch = master
 [column]
-	ui = auto
+  ui = auto
 [branch]
-	sort = -committerdate
+  sort = -committerdate
 [tag]
-	sort = version:refname
+  sort = version:refname
 
 # Allow local customizations in the .gitconfig_local file
 [include]
