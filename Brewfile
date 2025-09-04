@@ -21,11 +21,11 @@ brew "tree"
 brew "zplug"
 # Simple hotkey-daemon for macOS.
 brew "koekeishiya/formulae/skhd"
+# Write, edit, and chat about your code with AI
+cask "cursor"
 # Voice and text chat software
 cask "discord"
-# Font for terminal
 cask "font-fira-code"
-# Icons for terminal
 cask "font-hack-nerd-font"
 # Web browser
 cask "google-chrome"
@@ -48,7 +48,13 @@ cask "telegram"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "editorconfig.editorconfig"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
+vscode "nicohlr.pycharm"
+vscode "redhat.vscode-yaml"
+vscode "sobolevn.pustota"
+vscode "teabyii.ayu"
