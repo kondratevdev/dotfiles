@@ -8,6 +8,10 @@
       path: cursor/keybindings.json
       create: true
 
+    # MCP:
+    ~/.cursor/mcp.json: cursor/mcp.json
+
+
 # Installing dependencies:
 - brewfile:
     file: Brewfile
