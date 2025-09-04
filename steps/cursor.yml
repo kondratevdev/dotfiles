@@ -1,0 +1,18 @@
+---
+# Setting up cursor:
+- link:
+    "~/Library/Application Support/Cursor/User/settings.json":
+      path: cursor/settings.json
+      create: true
+    "~/Library/Application Support/Cursor/User/keybindings.json":
+      path: cursor/keybindings.json
+      create: true
+
+# Installing dependencies:
+- brewfile:
+    file: Brewfile
+    no-upgrade: true
+    stdout: true
+    stderr: true
+    # Brewfile now has vscode plugins:
+    include: ["vscode"]

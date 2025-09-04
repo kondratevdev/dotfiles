@@ -109,4 +109,5 @@
     "workbench.editor.showTabs": "single",
     "workbench.editor.showIcons": false,
     "workbench.editor.labelFormat": "medium",
+    "diffEditor.hideUnchangedRegions.enabled": true,
 }
