@@ -1,7 +1,7 @@
 ---
 # Installing dependencies:
 - brewfile:
-      file: Brewfile
+      file: ./macos/Brewfile
       no-upgrade: true
       stdout: true
       stderr: true
