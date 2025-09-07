@@ -1,6 +1,7 @@
 {
   // Cursor
   "cursorpyright.analysis.autoImportCompletions": true,
+  "cursorpyright.analysis.useTypingExtensions": true,
   // Debug
   "debug.allowBreakpointsEverywhere": true,
   "debug.console.closeOnEnd": true,
