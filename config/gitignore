@@ -186,3 +186,4 @@ erl_crash.dump
 #### custom ####
 .vscode/tags
 .pyre
+.bash_history
