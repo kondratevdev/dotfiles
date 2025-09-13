@@ -52,5 +52,16 @@
   {
     "key": "ctrl+shift+-",
     "command": "-workbench.action.navigateForward"
+  },
+  // Quick Fix
+  {
+    "key": "cmd+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+.",
+    "command": "-editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
   }
 ]

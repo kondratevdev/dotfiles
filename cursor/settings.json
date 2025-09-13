@@ -83,8 +83,8 @@
   "window.commandCenter": false,
   "window.newWindowDimensions": "fullscreen",
   "window.zoomLevel": 0.8,
-  "workbench.colorTheme": "pustota",
-  "workbench.iconTheme": "ayu",
+  "workbench.colorTheme": "dark-jetbrains-color-theme",
+  "workbench.iconTheme": "jetbrains-file-icon-theme-auto",
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
   "workbench.quickOpen.preserveInput": false,
@@ -98,5 +98,6 @@
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
-  "workbench.activityBar.orientation": "vertical"
+  "workbench.activityBar.orientation": "vertical",
+  "mypy-type-checker.args": ["--config-file=./setup.cfg"]
 }
