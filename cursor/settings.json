@@ -62,6 +62,7 @@
   },
   // Git
   "git.blame.statusBarItem.enabled": false,
+  // Python
   "python.createEnvironment.trigger": "off",
   "python.experiments.enabled": false,
   // Search
@@ -99,5 +100,4 @@
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
   "workbench.activityBar.orientation": "vertical",
-  "mypy-type-checker.args": ["--config-file=./setup.cfg"]
 }
