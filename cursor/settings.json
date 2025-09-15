@@ -83,7 +83,7 @@
   // Window
   "window.commandCenter": false,
   "window.newWindowDimensions": "fullscreen",
-  "window.zoomLevel": 0.8,
+  "window.zoomLevel": 0.75,
   "workbench.colorTheme": "dark-jetbrains-color-theme",
   "workbench.iconTheme": "jetbrains-file-icon-theme-auto",
   "workbench.layoutControl.enabled": false,

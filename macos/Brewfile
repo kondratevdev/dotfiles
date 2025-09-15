@@ -3,6 +3,8 @@ tap "koekeishiya/formulae"
 brew "bat"
 # Modern, maintained replacement for ls
 brew "eza"
+# GNU compiler collection
+brew "gcc"
 # Distributed revision control system
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
@@ -50,6 +52,7 @@ vscode "davidanson.vscode-markdownlint"
 vscode "editorconfig.editorconfig"
 vscode "fogio.jetbrains-color-theme"
 vscode "fogio.jetbrains-file-icon-theme"
+vscode "github.vscode-github-actions"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
