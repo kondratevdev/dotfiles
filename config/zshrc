@@ -29,6 +29,7 @@ HIST_IGNORE_SPACE="true"
 plugins=(
   gitfast
   gh
+  docker
 )
 
 # Sourcing the Oh-My-ZSH source:
