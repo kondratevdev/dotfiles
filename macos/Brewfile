@@ -9,6 +9,8 @@ brew "gcc"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# LLVM's OpenMP runtime library
+brew "libomp"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Improved Nano Syntax Highlighting Files
