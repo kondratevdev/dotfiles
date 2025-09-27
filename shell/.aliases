@@ -13,7 +13,7 @@ alias ls='eza -lahU --icons=auto --git --group-directories-first --time-style=is
 alias cat='bat --paging never --decorations never --plain'
 
 # Lock the screen (when going AFK)
-alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" using {command down,control down}'"
+alias afk="pmset displaysleepnow"
 
 # Copy public key to clipboard:
 alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
