@@ -3,6 +3,8 @@ tap "koekeishiya/formulae"
 brew "bat"
 # Modern, maintained replacement for ls
 brew "eza"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # GNU compiler collection
 brew "gcc"
 # Distributed revision control system
