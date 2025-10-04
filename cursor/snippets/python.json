@@ -1,0 +1,14 @@
+{
+  "usecase": {
+    "prefix": "uc",
+    "body": [
+      "@final",
+      "@attrs.define(frozen=True)",
+      "class ${1:ClassName}:",
+      "    def __call__(self):",
+      "        $2",
+      "        pass"
+    ],
+    "description": "Create a usecase class"
+  }
+}
