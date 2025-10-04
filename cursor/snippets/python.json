@@ -6,8 +6,7 @@
       "@attrs.define(frozen=True)",
       "class ${1:ClassName}:",
       "    def __call__(self):",
-      "        $2",
-      "        pass"
+      "        ${2:...}",
     ],
     "description": "Create a usecase class"
   }
