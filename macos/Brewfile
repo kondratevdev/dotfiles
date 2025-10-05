@@ -23,6 +23,12 @@ brew "nanorc"
 brew "pipx"
 # Python version management
 brew "pyenv"
+# Install various Ruby versions and implementations
+brew "ruby-build"
+# Ruby version manager
+brew "rbenv"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Next-generation plugin manager for zsh
