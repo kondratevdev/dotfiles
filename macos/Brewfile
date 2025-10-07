@@ -19,6 +19,8 @@ brew "libomp"
 brew "nano"
 # Improved Nano Syntax Highlighting Files
 brew "nanorc"
+# Platform built on V8 to build network applications
+brew "node"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python version management
