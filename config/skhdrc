@@ -7,7 +7,7 @@
 ctrl - p : open -a 'Cursor'
 
 # open browser:
-ctrl - o : open -a 'Safari'
+ctrl - o : open -a 'Zen'
 
 # open telegram:
 ctrl - a : open -a 'Telegram'
