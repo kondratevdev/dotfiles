@@ -25,6 +25,7 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.renderWhitespace": "all",
+  "editor.inlayHints.enabled": "off",
   // Editorconfig
   "editorconfig.showMenuEntry": false,
   "editorconfig.generateAuto": false,
@@ -83,7 +84,7 @@
   // Window
   "window.commandCenter": false,
   "window.newWindowDimensions": "fullscreen",
-  "window.zoomLevel": 0.75,
+  "window.zoomLevel": 0.6,
   // "workbench.colorTheme": "dark-jetbrains-color-theme",
   // "workbench.iconTheme": "jetbrains-file-icon-theme-auto",
   "workbench.colorTheme": "pustota",
