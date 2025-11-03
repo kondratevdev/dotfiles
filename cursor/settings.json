@@ -85,11 +85,9 @@
   "window.commandCenter": false,
   "window.newWindowDimensions": "fullscreen",
   "window.zoomLevel": 0.6,
-  // "workbench.colorTheme": "dark-jetbrains-color-theme",
-  // "workbench.iconTheme": "jetbrains-file-icon-theme-auto",
+  // Workbench
   "workbench.colorTheme": "pustota",
   "workbench.iconTheme": "ayu",
-
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
   "workbench.quickOpen.preserveInput": false,
@@ -103,21 +101,5 @@
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
-  "workbench.activityBar.orientation": "vertical",
-  // Docker
-  "[dockercompose]": {
-      "editor.insertSpaces": true,
-      "editor.tabSize": 2,
-      "editor.autoIndent": "advanced",
-      "editor.quickSuggestions": {
-          "other": true,
-          "comments": false,
-          "strings": true
-      },
-      "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  // GitHub Actions
-  "[github-actions-workflow]": {
-      "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
+  "workbench.activityBar.orientation": "vertical"
 }

@@ -19,7 +19,7 @@ brew "libomp"
 brew "nano"
 # Improved Nano Syntax Highlighting Files
 brew "nanorc"
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
