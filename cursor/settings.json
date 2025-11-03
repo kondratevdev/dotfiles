@@ -1,5 +1,6 @@
 {
   // Cursor
+  "cursor.composer.usageSummaryDisplay": "always",
   "cursorpyright.analysis.autoImportCompletions": true,
   "cursorpyright.analysis.useTypingExtensions": true,
   // Debug
@@ -10,7 +11,6 @@
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.cursorBlinking": "solid",
   "editor.cursorWidth": 4,
-  "editor.find.addExtraSpaceOnTop": false,
   "editor.fontFamily": "Fira Code, Hack Nerd Font Mono, monospace",
   "editor.fontSize": 13,
   "editor.glyphMargin": false,
@@ -26,6 +26,7 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.renderWhitespace": "all",
   "editor.inlayHints.enabled": "off",
+  "editor.find.addExtraSpaceOnTop": false,
   // Editorconfig
   "editorconfig.showMenuEntry": false,
   "editorconfig.generateAuto": false,
@@ -101,5 +102,7 @@
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
-  "workbench.activityBar.orientation": "vertical"
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.preferredDarkColorTheme": "pustota",
+  "workbench.tips.enabled": false
 }
