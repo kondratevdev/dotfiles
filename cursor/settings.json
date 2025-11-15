@@ -27,6 +27,7 @@
   "editor.renderWhitespace": "all",
   "editor.inlayHints.enabled": "off",
   "editor.find.addExtraSpaceOnTop": false,
+  "editor.showFoldingControls": "never",
   // Editorconfig
   "editorconfig.showMenuEntry": false,
   "editorconfig.generateAuto": false,
