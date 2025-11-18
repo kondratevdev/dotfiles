@@ -9,6 +9,8 @@ brew "fzf"
 brew "gcc"
 # Distributed revision control system
 brew "git"
+# Git extension for versioning large files
+brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Library access to GnuPG
