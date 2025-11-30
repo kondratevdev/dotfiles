@@ -54,7 +54,14 @@
 # Aliases:
 [alias]
   main = "!git checkout main > /dev/null 2>&1 || git checkout master"
+  staging = "!git checkout staging"
+  patch = "!git --no-pager diff"
 
 # Allow local customizations in the .gitconfig_local file
 [include]
   path = ~/.gitconfig_local
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
