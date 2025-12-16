@@ -59,10 +59,10 @@ cask "obsidian"
 cask "openinterminal"
 # Replacement for Docker Desktop
 cask "orbstack"
-# Collaboration platform for API development
-cask "postman"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# REST, GraphQL and gRPC client
+cask "yaak"
 # Gecko based web browser
 cask "zen"
 vscode "anysphere.cursorpyright"
