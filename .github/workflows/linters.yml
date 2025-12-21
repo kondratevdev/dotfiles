@@ -7,8 +7,8 @@ on:
     branches: [main]
 
 jobs:
-  shellcheck:
-    name: ShellCheck Lint
+  linters:
+    name: Linters Checks
     runs-on: ubuntu-latest
     if: github.actor != 'dependabot[bot]'  # Skip for Dependabot
     steps:
@@ -42,6 +42,7 @@ jobs:
           fi
 
       - name: Run Zsh check
+        shell: zsh {0}
         run: |
           for file in config/zshrc config/zplugrc; do
             if [ -f "$file" ]; then
