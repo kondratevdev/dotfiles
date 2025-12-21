@@ -30,7 +30,7 @@ jobs:
           config_folder=$(find config -type f \( -name "bashrc" -o -name "bash_profile" \) 2>/dev/null || echo "")
 
           # Merge:
-          all_files="$sh_files $shell_folder"
+          all_files="$sh_files $shell_folder $config_folder"
 
           # Check
           if [ -z "$all_files" ]; then
@@ -51,11 +51,4 @@ jobs:
           if [ -f config/editorconfig ]; then
             echo "Checking config/editorconfig"
             editorconfig-checker
-          fi
-
-      - name: Hyper.js syntax check
-        run: |
-          if [ -f config/hyper.js ]; then
-            echo "Checking config/hyper.js with Node"
-            node -c config/hyper.js
           fi

@@ -49,8 +49,6 @@ cask "font-fira-code"
 cask "font-hack-nerd-font"
 # Web browser
 cask "google-chrome"
-# Terminal built on web technologies
-cask "hyper"
 # Smooths scrolling and set mouse scroll directions independently
 cask "mos"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -63,6 +61,8 @@ cask "openinterminal"
 cask "orbstack"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
 # REST, GraphQL and gRPC client
 cask "yaak"
 # Gecko based web browser

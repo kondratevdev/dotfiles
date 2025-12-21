@@ -11,9 +11,11 @@ export SHELL
 
 readonly DOTBOT_DIR='dotbot'
 readonly DOTBOT_BIN='bin/dotbot'
-readonly BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+readonly BASEDIR
 
-readonly ARGS="$@"
+ARGS=("$@")
+readonly ARGS
 
 cd "$BASEDIR"
 git submodule sync --quiet --recursive
@@ -28,7 +30,7 @@ run_dotbot () {
   "$BASEDIR/$DOTBOT_DIR/$DOTBOT_BIN" \
     -d "$BASEDIR" \
     --plugin-dir dotbot-brewfile \
-    -c "$config" $ARGS
+    -c "$config" "${ARGS[@]}"
 }
 
 run_dotbot 'steps/terminal.yml' || true
