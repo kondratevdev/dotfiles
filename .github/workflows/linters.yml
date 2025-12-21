@@ -52,10 +52,3 @@ jobs:
             echo "Checking config/editorconfig"
             editorconfig-checker
           fi
-
-      - name: Hyper.js syntax check
-        run: |
-          if [ -f config/hyper.js ]; then
-            echo "Checking config/hyper.js with Node"
-            node -c config/hyper.js
-          fi

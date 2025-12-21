@@ -21,7 +21,7 @@
       force: true
 
     ~/.zplugrc: config/zplugrc
-    ~/.hyper.js: config/hyper.js
+    ~/.wezterm.lua: config/wezterm.lua
 
     # Git:
     ~/.gitconfig: config/gitconfig
