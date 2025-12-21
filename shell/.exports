@@ -17,7 +17,8 @@ PATH="$HOME/.poetry/bin:$PATH"
 # === General ===
 
 # Editor:
-export EDITOR="$(which nano)"
+nano_path=$(which nano)
+export EDITOR="$nano_path"
 
 # Homebrew:
 export HOMEBREW_NO_ANALYTICS=1  # disables statistics that brew collects

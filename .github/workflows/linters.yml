@@ -20,18 +20,19 @@ jobs:
 
       - name: Run ShellCheck on all .sh files and shell folder
         run: |
-          # Find all `.sh` files
+          # Find all `.sh` files:
           sh_files=$(find . -type f -name "*.sh")
 
-          # Adding files from `shell` folder
-          if [ -d "shell" ]; then
-            shell_files=$(find shell -type f)
-          else
-            shell_files=""
-          fi
+          # Adding files from `shell` folder:
+          shell_folder=$(find shell -type f 2>/dev/null || echo "")
+
+          # Adding files from `config` folder:
+          config_folder=$(find config -type f \( -name "bashrc" -o -name "bash_profile" \) 2>/dev/null || echo "")
+
+          # Merge:
+          all_files="$sh_files $shell_folder"
 
           # Check
-          all_files="$sh_files $shell_files"
           if [ -z "$all_files" ]; then
             echo "No shell scripts found."
           else
