@@ -1,0 +1,42 @@
+name: Linters Checks
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  shellcheck:
+    name: ShellCheck Lint
+    runs-on: ubuntu-latest
+    if: github.actor != 'dependabot[bot]'  # Skip for Dependabot
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install ShellCheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+
+      - name: Run ShellCheck on all .sh files and shell folder
+        run: |
+          # Find all `.sh` files:
+          sh_files=$(find . -type f -name "*.sh")
+
+          # Adding files from `shell` folder:
+          shell_folder=$(find shell -type f 2>/dev/null || echo "")
+
+          # Adding files from `config` folder:
+          config_folder=$(find config -type f \( -name "bashrc" -o -name "bash_profile" \) 2>/dev/null || echo "")
+
+          # Merge:
+          all_files="$sh_files $shell_folder"
+
+          # Check
+          if [ -z "$all_files" ]; then
+            echo "No shell scripts found."
+          else
+            echo "Running ShellCheck on the following files:"
+            echo "$all_files"
+            shellcheck -s bash $all_files
+          fi

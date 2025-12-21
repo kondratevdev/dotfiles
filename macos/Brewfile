@@ -33,6 +33,8 @@ brew "ruby-build"
 brew "rbenv"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Next-generation plugin manager for zsh
