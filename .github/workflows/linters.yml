@@ -1,0 +1,30 @@
+name: Linters Checks
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  shellcheck:
+    name: ShellCheck Lint
+    runs-on: ubuntu-latest
+    if: github.actor != 'dependabot[bot]'  # Skip for Dependabot
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install ShellCheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+
+      - name: Run ShellCheck on all .sh files
+        run: |
+          sh_files=$(find . -type f -name "*.sh")
+          if [ -z "$sh_files" ]; then
+            echo "No shell scripts found."
+          else
+            echo "Running ShellCheck on:"
+            echo "$sh_files"
+            shellcheck $sh_files
+          fi
