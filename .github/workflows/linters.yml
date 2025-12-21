@@ -7,8 +7,8 @@ on:
     branches: [main]
 
 jobs:
-  shellcheck:
-    name: ShellCheck Lint
+  linters:
+    name: Linters Checks
     runs-on: ubuntu-latest
     if: github.actor != 'dependabot[bot]'  # Skip for Dependabot
     steps:
@@ -18,7 +18,7 @@ jobs:
       - name: Install ShellCheck
         run: sudo apt-get update && sudo apt-get install -y shellcheck
 
-      - name: Run ShellCheck on all .sh files and shell folder
+      - name: Run ShellCheck
         run: |
           # Find all `.sh` files:
           sh_files=$(find . -type f -name "*.sh")
@@ -39,4 +39,23 @@ jobs:
             echo "Running ShellCheck on the following files:"
             echo "$all_files"
             shellcheck -s bash $all_files
+          fi
+
+      - name: Install EditorConfig Checker
+        run: |
+          sudo apt-get install -y npm
+          npm install -g editorconfig-checker
+
+      - name: Run EditorConfig validation
+        run: |
+          if [ -f config/editorconfig ]; then
+            echo "Checking config/editorconfig"
+            editorconfig-checker
+          fi
+
+      - name: Hyper.js syntax check
+        run: |
+          if [ -f config/hyper.js ]; then
+            echo "Checking config/hyper.js with Node"
+            node -c config/hyper.js
           fi
