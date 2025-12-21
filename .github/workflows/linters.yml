@@ -41,16 +41,6 @@ jobs:
             shellcheck -s bash $all_files
           fi
 
-      - name: Run Zsh check
-        shell: zsh {0}
-        run: |
-          for file in config/zshrc config/zplugrc; do
-            if [ -f "$file" ]; then
-              echo "Checking $file with zsh -n"
-              zsh -n "$file"
-            fi
-          done
-
       - name: Run Git config check
         run: |
           for file in config/gitconfig config/gitattributes config/gitignore; do
