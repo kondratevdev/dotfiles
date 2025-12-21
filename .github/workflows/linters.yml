@@ -18,13 +18,24 @@ jobs:
       - name: Install ShellCheck
         run: sudo apt-get update && sudo apt-get install -y shellcheck
 
-      - name: Run ShellCheck on all .sh files
+      - name: Run ShellCheck on all .sh files and shell folder
         run: |
+          # Find all `.sh` files
           sh_files=$(find . -type f -name "*.sh")
-          if [ -z "$sh_files" ]; then
+
+          # Adding files from `shell` folder
+          if [ -d "shell" ]; then
+            shell_files=$(find shell -type f)
+          else
+            shell_files=""
+          fi
+
+          # Check
+          all_files="$sh_files $shell_files"
+          if [ -z "$all_files" ]; then
             echo "No shell scripts found."
           else
-            echo "Running ShellCheck on:"
-            echo "$sh_files"
-            shellcheck $sh_files
+            echo "Running ShellCheck on the following files:"
+            echo "$all_files"
+            shellcheck -s bash $all_files
           fi
