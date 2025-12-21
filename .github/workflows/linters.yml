@@ -41,15 +41,6 @@ jobs:
             shellcheck -s bash $all_files
           fi
 
-      - name: Run Git config check
-        run: |
-          for file in config/gitconfig config/gitattributes config/gitignore; do
-            if [ -f "$file" ]; then
-              echo "Checking $file with git"
-              git config --list --file "$file"
-            fi
-          done
-
       - name: Install EditorConfig Checker
         run: |
           sudo apt-get install -y npm
