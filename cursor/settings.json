@@ -105,5 +105,28 @@
   "workbench.statusBar.visible": false,
   "workbench.activityBar.orientation": "vertical",
   "workbench.preferredDarkColorTheme": "pustota",
-  "workbench.tips.enabled": false
+  "workbench.tips.enabled": false,
+  // https://github.com/subframe7536/vscode-custom-ui-style extension:
+  "custom-ui-style.electron": {
+    "frame": false,  // removes the title bar
+    "transparent": true,  // removes white line from the top
+    "titleBarStyle": "hidden",
+    "titleBarOverlay": {
+      "height": 35,  // icons and text has the same centring in the title bar
+    }
+  },
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
+  // Hide unwanted elements from the UI:
+  "custom-ui-style.stylesheet": {
+    // Hide extra items:
+    ".monaco-toolbar, .quick-input-list .scrollbar, .quick-input-list .action-label": {
+      "visibility": "hidden !important",
+      "display": "none !important",
+    },
+    // Center the title with the filename:
+    ".monaco-workbench .editor-group-container>.title>.label-container>.title-label>.monaco-icon-label-container": {
+      "margin-left": "50px !important",
+    },
+  },
 }
