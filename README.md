@@ -1,6 +1,7 @@
 # kondratevdev`s dotfiles
 
 [![GitGuardian scan](https://github.com/anywindblows/dotfiles/actions/workflows/gitguardian.yml/badge.svg?branch=main)](https://github.com/anywindblows/dotfiles/actions/workflows/gitguardian.yml)
+[![Linters Checks](https://github.com/kondratevdev/dotfiles/actions/workflows/linters.yml/badge.svg?branch=main)](https://github.com/kondratevdev/dotfiles/actions/workflows/linters.yml)
 
 ## Acknowledgements
 

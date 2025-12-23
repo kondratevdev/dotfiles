@@ -1,9 +1,9 @@
+---
+
 name: Linters Checks
 
-on:
+on:  # yamllint disable-line rule:truthy
   pull_request:
-    branches: [main]
-  push:
     branches: [main]
 
 jobs:
@@ -27,7 +27,11 @@ jobs:
           shell_folder=$(find shell -type f 2>/dev/null || echo "")
 
           # Adding files from `config` folder:
-          config_folder=$(find config -type f \( -name "bashrc" -o -name "bash_profile" \) 2>/dev/null || echo "")
+          config_folder=$(
+            find config -type f \
+              \( -name "bashrc" -o -name "bash_profile" \) \
+              2>/dev/null || echo ""
+          )
 
           # Merge:
           all_files="$sh_files $shell_folder $config_folder"
@@ -52,3 +56,10 @@ jobs:
             echo "Checking config/editorconfig"
             editorconfig-checker
           fi
+
+      - name: Install yamllint
+        run: pip install yamllint
+
+      - name: Lint YAML files
+        run: |
+          yamllint -d "{extends: default, ignore: dotbot*}" -f github .
