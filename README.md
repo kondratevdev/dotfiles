@@ -5,5 +5,5 @@
 ## Acknowledgements
 
 Special thanks to **Nikita Sobolev ([@sobolevn](https://github.com/sobolevn))**.
-This dotfiles repository would not be possible without his dotfiles,
+This repository would not be possible without his [dotfiles](https://github.com/sobolevn/dotfiles),
 which inspired the structure and overall approach used here.
