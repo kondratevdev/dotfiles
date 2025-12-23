@@ -52,3 +52,9 @@ jobs:
             echo "Checking config/editorconfig"
             editorconfig-checker
           fi
+
+      - name: Install yamllint
+        run: pip install yamllint
+
+      - name: Lint YAML files
+        run: yamllint .
