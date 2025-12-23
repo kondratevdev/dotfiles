@@ -1,4 +1,5 @@
 tap "koekeishiya/formulae"
+tap "tw93/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern, maintained replacement for ls
@@ -41,6 +42,8 @@ brew "tree"
 brew "zplug"
 # Simple hotkey-daemon for macOS.
 brew "koekeishiya/formulae/skhd"
+# Comprehensive macOS cleanup and application uninstall tool
+brew "tw93/tap/mole"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Voice and text chat software
