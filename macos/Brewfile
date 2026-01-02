@@ -50,6 +50,8 @@ cask "cursor"
 cask "discord"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Web browser
 cask "google-chrome"
 # Smooths scrolling and set mouse scroll directions independently
@@ -64,8 +66,6 @@ cask "openinterminal"
 cask "orbstack"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# GPU-accelerated cross-platform terminal emulator and multiplexer
-cask "wezterm"
 # REST, GraphQL and gRPC client
 cask "yaak"
 # Gecko based web browser
