@@ -23,7 +23,11 @@
       force: true
 
     ~/.zplugrc: config/zplugrc
-    ~/.wezterm.lua: config/wezterm.lua
+
+    # Ghostty:
+    "~/Library/Application Support/com.mitchellh.ghostty/config":
+      path: config/ghostty
+      create: true
 
     # Git:
     ~/.gitconfig: config/gitconfig
