@@ -7,7 +7,7 @@
 
 We use [dotbot](https://github.com/anishathalye/dotbot) to install all configs automatically.
 
-1. Clone repo using: `git clone git@github.com:kondratevdev/dotfiles.git`
+1. Clone repo using `git clone git@github.com:kondratevdev/dotfiles.git`
 2. Run `bash dotfiles/install.sh`
 
 ## Acknowledgements
