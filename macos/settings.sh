@@ -127,7 +127,7 @@ defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 # Disable smart dashes:
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
-# Diable automatic period substitution:
+# Disable automatic period substitution:
 defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
 
 
