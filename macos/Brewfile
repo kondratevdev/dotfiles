@@ -60,8 +60,6 @@ cask "mos"
 cask "ngrok"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Finder Toolbar app to open the current directory in Terminal or Editor
-cask "openinterminal"
 # Replacement for Docker Desktop
 cask "orbstack"
 # Messaging app with a focus on speed and security
