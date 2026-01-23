@@ -79,8 +79,8 @@
   "telemetry.feedback.enabled": false,
   // Terminal
   "terminal.explorerKind": "external",
-  "terminal.external.linuxExec": "wezterm",
-  "terminal.external.osxExec": "wezterm.app",
+  "terminal.external.linuxExec": "hyper",
+  "terminal.external.osxExec": "hyper.app",
   // Update
   "update.showReleaseNotes": false,
   // Window
