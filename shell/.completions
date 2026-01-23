@@ -26,6 +26,7 @@ zstyle ':completion:*' menu no
 
 # === docker ===
 # https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/docker/README.md
-# Enable option stacking completion:
+
+# e nable option stacking completion:
 zstyle ':completion:*:*:docker:*' option-stacking yes
 zstyle ':completion:*:*:docker-*:*' option-stacking yes
