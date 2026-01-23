@@ -8,3 +8,24 @@
 
 # Enable hidden files on completion:
 setopt globdots
+
+
+# === fzf-tab ===
+# https://github.com/Aloxaf/fzf-tab
+
+# enable hidden files on completion
+zstyle ':completion:*' special-dirs true
+# hide parents
+zstyle ':completion:*' ignored-patterns '.|..|.DS_Store|**/.|**/..|**/.DS_Store|**/.git'
+# hide `..` and `.` from file menu
+zstyle ':completion:*' ignore-parents 'parent pwd directory'
+# force zsh not to show completion menu,
+# which allows fzf-tab to capture the unambiguous prefix
+zstyle ':completion:*' menu no
+
+
+# === docker ===
+# https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/docker/README.md
+# Enable option stacking completion:
+zstyle ':completion:*:*:docker:*' option-stacking yes
+zstyle ':completion:*:*:docker-*:*' option-stacking yes
