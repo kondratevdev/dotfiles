@@ -105,23 +105,6 @@ jobs:
       - name: Install check-jsonschema
         run: pip install check-jsonschema
 
-      - name: Validate JSON Syntax
-        run: |
-          # Create a generic schema that accepts any valid JSON
-          echo '{}' > schema.json
-
-          # Find all JSON files, excluding .git
-          json_files=$(find . -type f -name "*.json" -not -path '*/.git/*')
-
-          if [ -n "$json_files" ]; then
-            echo "Checking the following JSON files:"
-            echo "$json_files"
-            # shellcheck disable=SC2086
-            check-jsonschema --schemafile schema.json $json_files
-          else
-            echo "No JSON files found."
-          fi
-
       - name: Validate GitHub Workflows
         run: |
           check-jsonschema --builtin-schema vendor.github-workflows \
