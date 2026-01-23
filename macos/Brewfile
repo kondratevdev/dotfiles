@@ -8,6 +8,10 @@ brew "eza"
 brew "fzf"
 # GNU compiler collection
 brew "gcc"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Interact with Google Gemini AI models from the command-line
+brew "gemini-cli"
 # Distributed revision control system
 brew "git"
 # Git extension for versioning large files
@@ -22,8 +26,6 @@ brew "libomp"
 brew "nano"
 # Improved Nano Syntax Highlighting Files
 brew "nanorc"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python version management
@@ -50,10 +52,10 @@ cask "cursor"
 cask "discord"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
-# Terminal emulator that uses platform-native UI and GPU acceleration
-cask "ghostty"
 # Web browser
 cask "google-chrome"
+# Terminal built on web technologies
+cask "hyper"
 # Smooths scrolling and set mouse scroll directions independently
 cask "mos"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -71,6 +73,7 @@ cask "zen"
 vscode "anysphere.cursorpyright"
 vscode "davidanson.vscode-markdownlint"
 vscode "editorconfig.editorconfig"
+vscode "google.gemini-cli-vscode-ide-companion"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-vscode.makefile-tools"

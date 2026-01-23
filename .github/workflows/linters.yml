@@ -93,3 +93,24 @@ jobs:
         with:
           check_filenames: true
           check_hidden: true
+
+  schema-check:
+    name: Schema Validation
+    runs-on: ubuntu-latest
+    if: github.actor != 'dependabot[bot]'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install check-jsonschema
+        run: pip install check-jsonschema
+
+      - name: Validate GitHub Workflows
+        run: |
+          check-jsonschema --builtin-schema vendor.github-workflows \
+            .github/workflows/*.yml
+
+      - name: Validate Dependabot Config
+        run: |
+          check-jsonschema --builtin-schema vendor.dependabot \
+            .github/dependabot.yml

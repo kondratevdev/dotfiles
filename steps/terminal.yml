@@ -23,11 +23,7 @@
       force: true
 
     ~/.zplugrc: config/zplugrc
-
-    # Ghostty:
-    "~/Library/Application Support/com.mitchellh.ghostty/config":
-      path: config/ghostty
-      create: true
+    ~/.hyper.js: config/hyper.js
 
     # Git:
     ~/.gitconfig: config/gitconfig
