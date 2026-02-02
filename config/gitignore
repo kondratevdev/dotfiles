@@ -187,3 +187,4 @@ erl_crash.dump
 .vscode/tags
 .pyre
 .bash_history
+.python_history

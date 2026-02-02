@@ -5,14 +5,22 @@
       "@final",
       "@attrs.define(frozen=True)",
       "class ${1:ClassName}:",
-      "    \"\"\"",
-      "    ${2:description}",
-      "    \"\"\"",
+      "    \"\"\"${2:description}\"\"\"",
       "",
       "    def __call__(self${3:})${4:}:",
       "        \"\"\"${5:description}\"\"\"",
       "        ${6:...}",
     ],
     "description": "Create a usecase class"
+  },
+  "repo": {
+    "prefix": "repo",
+    "body": [
+      "@final",
+      "@attrs.define(frozen=True)",
+      "class ${1:Entity}Repo:",
+      "    \"\"\"Queries that are performed on :term:`${1:Entity}`.\"\"\"",
+    ],
+    "description": "Create a repository class"
   }
 }
