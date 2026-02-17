@@ -64,8 +64,8 @@ cask "ngrok"
 cask "obsidian"
 # Replacement for Docker Desktop
 cask "orbstack"
-# Messaging app with a focus on speed and security
-cask "telegram"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # REST, GraphQL and gRPC client
 cask "yaak"
 # Gecko based web browser
