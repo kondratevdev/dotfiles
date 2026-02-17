@@ -87,6 +87,9 @@
   "window.commandCenter": false,
   "window.newWindowDimensions": "fullscreen",
   "window.zoomLevel": 0.6,
+  "window.openFoldersInNewWindow": "off",
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
   // Workbench
   "workbench.colorTheme": "pustota",
   "workbench.iconTheme": "ayu",
@@ -100,6 +103,9 @@
   "workbench.editor.showTabs": "single",
   "workbench.editor.showIcons": false,
   "workbench.editor.labelFormat": "medium",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 5,
+  "workbench.editor.limit.perEditorGroup": true,
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
@@ -115,8 +121,6 @@
       "height": 35,  // icons and text has the same centring in the title bar
     }
   },
-  "window.titleBarStyle": "native",
-  "window.customTitleBarVisibility": "never",
   // Hide unwanted elements from the UI:
   "custom-ui-style.stylesheet": {
     // Hide extra items:
@@ -128,5 +132,6 @@
     ".monaco-workbench .editor-group-container>.title>.label-container>.title-label>.monaco-icon-label-container": {
       "margin-left": "50px !important",
     }
-  }
+  },
+  "diffEditor.ignoreTrimWhitespace": false
 }
