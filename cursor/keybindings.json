@@ -63,5 +63,9 @@
     "key": "cmd+.",
     "command": "-editor.action.quickFix",
     "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+v",
+    "command": "claude-dev.SidebarProvider.focus"
   }
 ]
