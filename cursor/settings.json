@@ -35,6 +35,8 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmPasteNative": false,
+  // Extensions
+  "extensions.ignoreRecommendations": true,
   // Files
   "files.autoSave": "afterDelay",
   "files.insertFinalNewline": true,
@@ -92,7 +94,6 @@
   "window.customTitleBarVisibility": "never",
   // Workbench
   "workbench.colorTheme": "pustota",
-  "workbench.iconTheme": "ayu",
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
   "workbench.quickOpen.preserveInput": false,
@@ -112,13 +113,15 @@
   "workbench.activityBar.orientation": "vertical",
   "workbench.preferredDarkColorTheme": "pustota",
   "workbench.tips.enabled": false,
+  "workbench.silentNotifications": true,
+  "workbench.editor.enablePreview": false,
   // https://github.com/subframe7536/vscode-custom-ui-style extension:
   "custom-ui-style.electron": {
     "frame": false,  // removes the title bar
     "transparent": true,  // removes white line from the top
     "titleBarStyle": "hidden",
     "titleBarOverlay": {
-      "height": 35,  // icons and text has the same centring in the title bar
+      "height": 35  // icons and text has the same centring in the title bar
     }
   },
   // Hide unwanted elements from the UI:
@@ -133,5 +136,6 @@
       "margin-left": "50px !important",
     }
   },
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.iconTheme": "ayu"
 }

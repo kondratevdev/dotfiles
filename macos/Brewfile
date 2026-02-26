@@ -8,10 +8,6 @@ brew "eza"
 brew "fzf"
 # GNU compiler collection
 brew "gcc"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
-# Interact with Google Gemini AI models from the command-line
-brew "gemini-cli"
 # Distributed revision control system
 brew "git"
 # Git extension for versioning large files
@@ -26,6 +22,8 @@ brew "libomp"
 brew "nano"
 # Improved Nano Syntax Highlighting Files
 brew "nanorc"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python version management
@@ -36,6 +34,8 @@ brew "ruby-build"
 brew "rbenv"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Safe, concurrent, practical language
+brew "rust"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Display directories as trees (with optional color/HTML output)
@@ -64,8 +64,8 @@ cask "ngrok"
 cask "obsidian"
 # Replacement for Docker Desktop
 cask "orbstack"
-# Messaging app with a focus on speed and security
-cask "telegram"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # REST, GraphQL and gRPC client
 cask "yaak"
 # Gecko based web browser
@@ -73,12 +73,11 @@ cask "zen"
 vscode "anysphere.cursorpyright"
 vscode "davidanson.vscode-markdownlint"
 vscode "editorconfig.editorconfig"
-vscode "google.gemini-cli-vscode-ide-companion"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-vscode.makefile-tools"
 vscode "redhat.vscode-yaml"
+vscode "saoudrizwan.claude-dev"
 vscode "sobolevn.pustota"
 vscode "subframe7536.custom-ui-style"
-vscode "tamasfe.even-better-toml"
 vscode "teabyii.ayu"
