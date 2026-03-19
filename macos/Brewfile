@@ -24,6 +24,8 @@ brew "nano"
 brew "nanorc"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python version management
@@ -56,6 +58,8 @@ cask "font-hack-nerd-font"
 cask "google-chrome"
 # Terminal built on web technologies
 cask "hyper"
+# Free and open-source media player
+cask "iina"
 # Smooths scrolling and set mouse scroll directions independently
 cask "mos"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -77,7 +81,6 @@ vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-vscode.makefile-tools"
 vscode "redhat.vscode-yaml"
-vscode "saoudrizwan.claude-dev"
 vscode "sobolevn.pustota"
 vscode "subframe7536.custom-ui-style"
 vscode "teabyii.ayu"

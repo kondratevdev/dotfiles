@@ -27,6 +27,12 @@ export HOMEBREW_NO_ANALYTICS=1  # disables statistics that brew collects
 
 # === Version managers ===
 
+# nvm:
+export NVM_DIR="$HOME/.nvm"
+if [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ]; then
+  source "$(brew --prefix)/opt/nvm/nvm.sh"
+fi
+
 # pyenv:
 eval "$(pyenv init --path)"
 
