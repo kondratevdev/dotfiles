@@ -6,8 +6,6 @@ brew "bat"
 brew "eza"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# GNU compiler collection
-brew "gcc"
 # Distributed revision control system
 brew "git"
 # Git extension for versioning large files
@@ -60,16 +58,12 @@ cask "google-chrome"
 cask "hyper"
 # Free and open-source media player
 cask "iina"
-# Smooths scrolling and set mouse scroll directions independently
-cask "mos"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Replacement for Docker Desktop
 cask "orbstack"
-# Move and resize windows using keyboard shortcuts or snap areas
-cask "rectangle"
 # REST, GraphQL and gRPC client
 cask "yaak"
 # Gecko based web browser
