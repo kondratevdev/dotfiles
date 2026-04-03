@@ -46,3 +46,8 @@
       description: Install poetry
       stdout: true
       stderr: true
+    - command: |
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+      description: Install uv
+      stdout: true
+      stderr: true

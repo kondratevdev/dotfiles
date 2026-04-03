@@ -99,7 +99,7 @@
   "workbench.quickOpen.preserveInput": false,
   "workbench.startupEditor": "none",
   "workbench.editorAssociations": {
-      "*.ipynb": "jupyter-notebook"
+    "*.svg": "default"
   },
   "workbench.editor.showTabs": "single",
   "workbench.editor.showIcons": false,
