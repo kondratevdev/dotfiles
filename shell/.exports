@@ -40,13 +40,14 @@ eval "$(pyenv init --path)"
 # rbenv:
 eval "$(rbenv init -)"
 
-
 # === Poetry ===
 # https://python-poetry.org/docs/configuration/
 
 export POETRY_VIRTUALENVS_IN_PROJECT=true
 
-
+# === uv ===
+# https://docs.astral.sh/uv/getting-started/installation/
+eval "$(uv generate-shell-completion zsh)"
 
 # === Code highlight ===
 # https://github.com/zsh-users/zsh-syntax-highlighting
