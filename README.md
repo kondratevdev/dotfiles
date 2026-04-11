@@ -3,12 +3,34 @@
 [![GitGuardian scan](https://github.com/anywindblows/dotfiles/actions/workflows/gitguardian.yml/badge.svg?branch=main)](https://github.com/anywindblows/dotfiles/actions/workflows/gitguardian.yml)
 [![Linters Checks](https://github.com/kondratevdev/dotfiles/actions/workflows/linters.yml/badge.svg?branch=main)](https://github.com/kondratevdev/dotfiles/actions/workflows/linters.yml)
 
+## Features
+
+- Automated setup with [dotbot](https://github.com/anishathalye/dotbot)
+- Homebrew-based dependency installation
+- Cursor settings, keybindings, and snippets
+- Optional macOS defaults bootstrap
+
 ## Installation
 
 We use [dotbot](https://github.com/anishathalye/dotbot) to install all configs automatically.
 
-1. Clone repo using `git clone git@github.com:kondratevdev/dotfiles.git`
-2. Run `bash dotfiles/install.sh`
+1. Clone repo using:
+
+```bash
+git clone git@github.com:kondratevdev/dotfiles.git
+```
+
+2. Run the installer:
+
+```bash
+bash dotfiles/install.sh
+```
+
+3. Apply macOS settings:
+
+```bash
+bash ~/dotfiles/macos/settings.sh
+```
 
 ## Acknowledgements
 
