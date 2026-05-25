@@ -1,8 +1,8 @@
 # kondratevdev`s dotfiles
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kondratevdev/dotfiles/master/.github/assets/logo-dark.svg#gh-light-mode-only" alt="Kondratevdev Dotfiles Logo - Light" width="30%" height="auto" />
-  <img src="https://raw.githubusercontent.com/kondratevdev/dotfiles/master/.github/assets/logo-light.svg#gh-dark-mode-only" alt="Kondratevdev Dotfiles Logo - Dark" width="30%" height="auto" />
+  <img src="https://raw.githubusercontent.com/kondratevdev/dotfiles/master/.github/assets/logo-light.svg#gh-light-mode-only" alt="Kondratevdev Dotfiles Logo - Light" width="30%" height="auto" />
+  <img src="https://raw.githubusercontent.com/kondratevdev/dotfiles/master/.github/assets/logo-dark.svg#gh-dark-mode-only" alt="Kondratevdev Dotfiles Logo - Dark" width="30%" height="auto" />
 
 <!--lint disable double-link-->
 [![GitGuardian scan](https://github.com/anywindblows/dotfiles/actions/workflows/gitguardian.yml/badge.svg?branch=main)](https://github.com/anywindblows/dotfiles/actions/workflows/gitguardian.yml)
