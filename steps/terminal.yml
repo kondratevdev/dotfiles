@@ -34,11 +34,6 @@
     ~/.editorconfig: config/editorconfig
     ~/.nanorc: config/nanorc
 
-    # skhd:
-    ~/.skhdrc:
-      path: config/skhdrc
-      force: true
-
 # See https://python-poetry.org
 - shell:
     - command: |

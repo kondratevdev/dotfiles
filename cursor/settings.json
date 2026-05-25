@@ -92,6 +92,7 @@
   "window.openFoldersInNewWindow": "off",
   "window.titleBarStyle": "native",
   "window.customTitleBarVisibility": "never",
+  "window.autoDetectColorScheme": false,
   // Workbench
   "workbench.colorTheme": "pustota",
   "workbench.layoutControl.enabled": false,
@@ -114,7 +115,7 @@
   "workbench.preferredDarkColorTheme": "pustota",
   "workbench.tips.enabled": false,
   "workbench.silentNotifications": true,
-  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "ayu",
   // https://github.com/subframe7536/vscode-custom-ui-style extension:
   "custom-ui-style.electron": {
     "frame": false,  // removes the title bar
@@ -129,13 +130,12 @@
     // Hide extra items:
     ".monaco-toolbar, .quick-input-list .scrollbar, .quick-input-list .action-label": {
       "visibility": "hidden !important",
-      "display": "none !important",
+      "display": "none !important"
     },
     // Center the title with the filename:
     ".monaco-workbench .editor-group-container>.title>.label-container>.title-label>.monaco-icon-label-container": {
-      "margin-left": "50px !important",
+      "margin-left": "50px !important"
     }
   },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.iconTheme": "ayu"
+  "diffEditor.ignoreTrimWhitespace": false
 }
