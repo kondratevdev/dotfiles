@@ -44,8 +44,6 @@ brew "shellcheck"
 brew "tree"
 # Next-generation plugin manager for zsh
 brew "zplug"
-# Simple hotkey-daemon for macOS.
-brew "koekeishiya/formulae/skhd"
 # Comprehensive macOS cleanup and application uninstall tool
 brew "tw93/tap/mole"
 # Write, edit, and chat about your code with AI
@@ -71,7 +69,6 @@ cask "zen"
 vscode "anysphere.cursorpyright"
 vscode "davidanson.vscode-markdownlint"
 vscode "editorconfig.editorconfig"
-vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-vscode.makefile-tools"
 vscode "redhat.vscode-yaml"
