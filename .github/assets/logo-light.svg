@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="0 0 512 512" role="img" aria-label="Dotfiles compact logo for light theme">
+  <g fill="none" stroke="#111111" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M188 95h111l61 61v184c0 17-13 30-30 30H190c-17 0-30-13-30-30V125c0-17 13-30 30-30z"/>
+    <path d="M210 232l48 52-48 52"/>
+  </g>
+  <circle cx="300" cy="311" r="11" fill="#3BDD2D"/>
+</svg>
