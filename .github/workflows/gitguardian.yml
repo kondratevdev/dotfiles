@@ -16,7 +16,7 @@ jobs:
     if: github.actor != 'dependabot[bot]'  # Skip for Dependabot
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.0.2
         with:
           fetch-depth: 0  # fetch all history so multiple commits can be scanned
       - name: GitGuardian scan
