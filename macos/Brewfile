@@ -1,7 +1,7 @@
-tap "koekeishiya/formulae"
-tap "tw93/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Cross-platform make
+brew "cmake"
 # Modern, maintained replacement for ls
 brew "eza"
 # Command-line fuzzy finder written in Go
@@ -40,12 +40,12 @@ brew "ruby"
 brew "rust"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Program that allows you to count code, quickly
+brew "tokei"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Next-generation plugin manager for zsh
 brew "zplug"
-# Comprehensive macOS cleanup and application uninstall tool
-brew "tw93/tap/mole"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Voice and text chat software
@@ -54,8 +54,6 @@ cask "font-fira-code"
 cask "font-hack-nerd-font"
 # Terminal built on web technologies
 cask "hyper"
-# Free and open-source media player
-cask "iina"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Knowledge base that works on top of a local folder of plain text Markdown files
@@ -67,6 +65,7 @@ cask "yaak"
 # Gecko based web browser
 cask "zen"
 vscode "anysphere.cursorpyright"
+vscode "cucumberopen.cucumber-official"
 vscode "davidanson.vscode-markdownlint"
 vscode "editorconfig.editorconfig"
 vscode "ms-python.python"
