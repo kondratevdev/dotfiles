@@ -22,6 +22,8 @@ brew "libomp"
 brew "nano"
 # Improved Nano Syntax Highlighting Files
 brew "nanorc"
+# Port scanning utility for large networks
+brew "nmap"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Manage multiple Node.js versions
@@ -34,6 +36,8 @@ brew "pyenv"
 brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Safe, concurrent, practical language
