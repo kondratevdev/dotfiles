@@ -8,9 +8,6 @@
       path: cursor/keybindings.json
       create: true
 
-    # MCP:
-    ~/.cursor/mcp.json: cursor/mcp.json
-
     # Snippets:
     "~/Library/Application Support/Cursor/User/snippets":
       path: cursor/snippets
