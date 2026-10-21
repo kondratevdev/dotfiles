@@ -58,14 +58,10 @@ cask "font-fira-code"
 cask "font-hack-nerd-font"
 # Terminal built on web technologies
 cask "hyper"
-# Reverse proxy, secure introspectable tunnels to localhost
-cask "ngrok"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Replacement for Docker Desktop
 cask "orbstack"
-# REST, GraphQL and gRPC client
-cask "yaak"
 # Gecko based web browser
 cask "zen"
 vscode "anysphere.cursorpyright"
